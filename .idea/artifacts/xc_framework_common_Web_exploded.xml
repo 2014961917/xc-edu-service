@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="xc-framework-common:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/xc_framework_common_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="xc-framework-common/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="xc-framework-common" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
