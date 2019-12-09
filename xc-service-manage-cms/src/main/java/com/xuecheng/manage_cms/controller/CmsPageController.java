@@ -38,7 +38,7 @@ public class CmsPageController  implements CmsPageControllerApi {
     @Override
     @GetMapping("/findByPageId/{pageId}")
     public CmsPageResult findByPageId(@PathVariable("pageId") String pageId) {
-        return pageService.findByPageId(pageId);
+        return pageService.getById(pageId);
     }
 
     @Override

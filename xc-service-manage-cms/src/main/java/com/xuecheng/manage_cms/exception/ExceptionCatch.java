@@ -61,6 +61,4 @@ public class ExceptionCatch {
         builder.put(HttpMessageNotReadableException.class,CommonCode.INVALID_PARAM);
         builder.put(HttpRequestMethodNotSupportedException.class,CommonCode.METHOD_NOT_SUPPORTED);
     }
-
-
 }
